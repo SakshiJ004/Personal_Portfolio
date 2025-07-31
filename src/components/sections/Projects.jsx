@@ -77,10 +77,10 @@ export const Projects = () => {
                                 ))}
                             </div>
                             <div className="flex justify-between items-center">
-                                <a href="https://lms-frontend-jet-zeta.vercel.app/" target="_blank" className="flex items-center text-blue-400 hover:text-blue-300 transition-colors my-4">
+                                <a href="https://personal-portfolio-omega-ten-62.vercel.app/" target="_blank" className="flex items-center text-blue-400 hover:text-blue-300 transition-colors my-4">
                                     <BiLinkExternal className="text-lg mr-2" />View Project
                                 </a>
-                                <a href="https://github.com/SakshiJ004/LMS.git" target="_blank" className="flex items-center text-blue-400 hover:text-blue-300 transition-colors">
+                                <a href="https://github.com/SakshiJ004/Personal_Portfolio.git" target="_blank" className="flex items-center text-blue-400 hover:text-blue-300 transition-colors">
                                     <FaGithub className="text-lg mr-2" />Github Repository
                                 </a>
                             </div>
