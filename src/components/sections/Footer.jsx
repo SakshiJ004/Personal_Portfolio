@@ -3,11 +3,10 @@ import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 export const Footer = () => {
     return (
-        <RevealOnScroll>
-            <footer className="text-white py-10 px-4 border-t border-white/10 bg-black">
-                <div className="flex flex-col md:flex-row justify-between items-center mx-60 text-center">
+            <footer className="text-white py-10 px-4 w-full border-t border-white/10 bg-black">
+                <div className="flex flex-col md:flex-row justify-between items-center max-w-5xl mx-auto text-center">
 
-                    <div className="flex gap-4">
+                    <div className="flex gap-4 mb-4 sm:mb-0">
                         <a
                             href="https://github.com/SakshiJ004"
                             target="_blank"
@@ -29,6 +28,5 @@ export const Footer = () => {
                     </p>
                 </div>
             </footer>
-        </RevealOnScroll>
     );
 };
