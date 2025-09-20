@@ -6,7 +6,7 @@ export const About = () => {
     const backendSkills = ["Node.js", "Express.js", "MongoDB"]
     const tools = ["Postman", "Git", "Github"]
     return (
-        <section id="about" className="min-h-screen flex items-center justify-center py-20">
+        <section id="about" className="min-h-screen flex items-center justify-center pb-5">
             <RevealOnScroll>
                 <div className="w-full sm:max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto px-2">
                     <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">About Me</h2>
