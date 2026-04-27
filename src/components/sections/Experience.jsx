@@ -18,7 +18,7 @@ export const Experience = () => {
     ]
 
     return (
-        <section id="experience" className="flex items-center justify-center py-6 sm:py-10">
+        <section id="experience" className="flex items-center justify-center py-8 sm:py-10">
             <RevealOnScroll>
                 <div className="w-full sm:max-w-2xl md:max-w-3xl lg:max-w-4xl mx-auto px-2">
                     <h2 className="text-lg sm:text-xl md:text-2xl lg:text-3xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center">
